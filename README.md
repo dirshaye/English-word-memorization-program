@@ -25,12 +25,10 @@ We made a web application for the Project Assignment of Software Construction Co
 We mainly used Python-Django technologies
 
 Now I will tell you a little about the project
-Project Subject(English Vocabulary Memorisation Programme)
+Project Subject(English Vocabulary Memorisation Program)
 
-first the user registers on the page and then logs in
-After logging in, a random 10 word quiz appears by default 
-He/she tries to find the correct meaning of these words and after knowing a word, his/her score for that word is 1.
-can reach a maximum of 6 points for that word, and if he/she has completed 6 points after reaching 6 points, he/she is considered to know that word completely and
-the word will never come up again.
-The frequency of occurrence of a word depends on an algorithm, so if he knows a word correctly, the word he knows will not appear again on the same date.
-There is a time interval of 1 day 1 week 1 month 3 months 6 months and 12 months, so every time you know the word correctly, you have to wait for the next time to appear again!
+First, the user registers on the page and then logs in. After logging in, a random 10-word quiz appears by default. The user tries to find the correct meaning of these words. Each time the user correctly identifies a word's meaning, their score for that word increases by 1 point.
+
+A word can reach a maximum of 6 points. Once a word reaches 6 points, the user is considered to have completely learned that word, and it will never appear again.
+
+The frequency of occurrence of a word depends on an algorithm. If the user knows a word correctly, that word will not appear again on the same day. There are specific time intervals of 1 day, 1 week, 1 month, 3 months, 6 months, and 12 months. Each time the user correctly identifies a word, they must wait for the next interval for the word to appear again.
