@@ -2,6 +2,7 @@ from django.urls import path
 
 from .views import homePage,loginPage,registerPage , logOut , wordPage,userProfil,reset_password
 
+# Define URL patterns for the Django application
 urlpatterns = [
 
     path('',homePage,name="homePage"),
